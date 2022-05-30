@@ -1,3 +1,5 @@
+# !pip install pygame keyboard
+
 import json
 import sys
 import threading
@@ -11,7 +13,7 @@ from typing import (
     Union,
     List,
     Dict,
-    Any
+    Any, Sequence
 )
 
 
@@ -21,6 +23,7 @@ from pygame.rect import Rect, RectType
 from pygame.sprite import Group
 from pygame.surface import Surface, SurfaceType
 from pygame.time import Clock
+import keyboard as kb
 
 # TODO add music
 point = 0
@@ -51,10 +54,8 @@ with open("resource/music/10c.json") as f:
 
 def sound_load(file: Path) -> None:
     """"Loads a sound file."
-
     The first line is a docstring. It's a string that describes the function. It's
     optional, but it's good practice to include one
-
     Parameters
     ----------
     file : Path
@@ -75,7 +76,6 @@ class Screen:
             title: str
     ):
         """This class shows screen.
-
         Parameters
         ----------
         path : Path
@@ -97,7 +97,6 @@ class Note(pg.sprite.Sprite):
             pos: int
     ):
         """Generate note.
-
         Parameters
         ----------
         pos : int
@@ -124,7 +123,6 @@ class JudgeBar(pg.sprite.Sprite):
             vxy: Tuple[int, int]
     ):
         """Draw baseline.
-
         Parameters
         ----------
         screen : Screen
@@ -145,7 +143,6 @@ class JudgeBar(pg.sprite.Sprite):
 
 def notes_manager(screen: Screen, clock: Clock, line: Group) -> None:
     """It generates notes and checks if they collide with the line
-
     Parameters
     ----------
     screen : Screen
@@ -154,7 +151,6 @@ def notes_manager(screen: Screen, clock: Clock, line: Group) -> None:
         Clock
     line : Group
         The line that the notes will collide with.
-
     """
     global t, flag, now_t, point
     speed = BPM / (60 * LPB * 4)
@@ -196,7 +192,7 @@ def notes_manager(screen: Screen, clock: Clock, line: Group) -> None:
         if len(pg.sprite.groupcollide(notes, line, False, False)) != 0:
             gc = pg.sprite.groupcollide(notes, line, False, False)
 
-            if key[pg.K_UP]:
+            if kb.is_pressed("w"):
                 for _k, _v in gc.items():
                     _k.kill()
                 point += 10
