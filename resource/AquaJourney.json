@@ -1,0 +1,23 @@
+{
+  "name": "AquaJourney",
+  "maxBlock": 5,
+  "BPM": 132,
+  "offset": 0,
+  "notes": [
+    {
+      "LPB": 4,
+      "num": 24,
+      "block": 4,
+      "type": 2,
+      "notes": [
+        {
+          "LPB": 4,
+          "num": 32,
+          "block": 0,
+          "type": 2,
+          "notes": []
+        }
+      ]
+    }
+  ]
+}

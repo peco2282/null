@@ -1,0 +1,155 @@
+{
+  "name": "10c",
+  "maxBlock": 5,
+  "BPM": 160,
+  "offset": 1400,
+  "notes": [
+    {
+      "LPB": 4,
+      "num": 0,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 6,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 8,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 14,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 16,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 24,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 26,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 28,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 30,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 32,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 38,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 40,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 46,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 48,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 56,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 58,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 60,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 62,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 64,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 70,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 72,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    }
+  ]
+}
